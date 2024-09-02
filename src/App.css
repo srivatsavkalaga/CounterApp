@@ -3,45 +3,137 @@
 }
 
 .box{
-  max-width: 200px;
+  
+  width:350px;
+  height:2000px;
   margin: 50px auto;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  padding: 10px;
+  padding: 50px;
+  background-color:gold;
 }
 
 p{
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 50px;
   text-align: center;
 }
 
-button{
-  padding: 10px;
-  margin: 20px 10px;
-  font-size: 16px;
-  color: #FFFFFF;
-  border: 0px;
-  border-radius: 5px;
-  cursor: pointer;
-}
+
 
 button.add{
-  background-color: #18978F;
+  
+
+  width: 100px;       /* Adjust the width to control the size of the circle */
+  height: 100px;      /* The height should be the same as the width to make it a perfect circle */
+  border-radius: 50%; /* This makes the button circular */
+  background-color:red; /* Button color (you can change this) */
+  color: white;      /* Text color */
+  border: none;      /* No border */
+  display: inline-flex; /* Align the text/icon in the center */
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;   /* Font size for text or icon */
+  cursor: pointer;   /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease;
+  margin-right: 50px;
+  
 }
 
 button.sub{
-  background-color: #EB4747;
+  background-color:red;
+  max-width: 150px;
 }
 
 button.Reset{
-  background-color: black;
+  
+  
+  width: 50px;       /* Adjust the width to control the size of the circle */
+  height: 50px;      /* The height should be the same as the width to make it a perfect circle */
+  border-radius: 50%; /* This makes the button circular */
+  background-color:black; /* Button color (you can change this) */
+  color: white;      /* Text color */
+  border: none;      /* No border */
+  display: inline-flex; /* Align the text/icon in the center */
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;   /* Font size for text or icon */
+  cursor: pointer;   /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease;
+  
+  
 }
 
-button.reset{
-  background-color: #0F3460;
+
+
+
+
+
+
+.left-image {
+  width: 100px;                   /* Adjust the width as needed */
+  height: auto;                   /* Maintain aspect ratio */
 }
 
-.Logo{
-  height:100px;
+.center-image {
+  width: 200px;                   /* Adjust the width as needed */
+  height: auto;                   /* Maintain aspect ratio */
+  margin-left: 30px;              /* Push the second image to the center */
+  margin-right: 100px;             /* Ensure it's centered within the remaining space */
+}
+
+.save{
+  width:80px;
+  height:80px;
+  background-color: green;
+  display: inline-flex; /* Align the text/icon in the center */
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.textbox{
+  margin-top: 30px;
+}
+
+
+.edit{
+  width:50px;
+  height:50px;
+  margin-left:20px ;
+  background-color:orange;
+  margin-bottom: 10px;
+  
+}
+
+.delete{
+  width:60px;
+  height:50px;
+  margin-left:20px ;
+  background-color: red;
+  margin-bottom: 10px;
+
+}
+li{
+  margin-bottom: 30px;
+}
+
+/* ListComponent.css */
+.name {
+  color: black; /* Style for the name */
+  font-weight: bold;
+}
+
+.counter-value {
+  color:black; /* Style for the counter value */
+}
+
+.display{
+  font-size: 15px;
+  background-color:lightskyblue;
+}
+
+.header{
+   /* Align the text/icon in the center */
+  align-items: center;
 }

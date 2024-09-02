@@ -1,11 +1,17 @@
 import React from 'react'
-import Logo from "../assets/Logo.png";
+import Counterlogo from "../assets/Counterlogo.png";
+//import Godess from "../assets/Gayatrimatha.jpg";
+
 
 export const Header = () => {
   return (
-    <div>
-      <img className="Logo" src={Logo} alt="" />
-    </div>
+  <>
+  
+  <img src={Counterlogo} alt="First Image" className="left-image" />
+  </>  
+  
+
+    
   )
 }
 
