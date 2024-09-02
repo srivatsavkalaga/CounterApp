@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CounterApp/static/css/main.425bc8fc.css",
-    "main.js": "/CounterApp/static/js/main.f9304931.js",
+    "main.css": "/CounterApp/static/css/main.a3cd89cb.css",
+    "main.js": "/CounterApp/static/js/main.bc47aa16.js",
     "static/media/Gayatrimatha.jpg": "/CounterApp/static/media/Gayatrimatha.c1c4d9c5bea5e21639a5.jpg",
     "static/media/Counterlogo.png": "/CounterApp/static/media/Counterlogo.76ec3e9f5bf9d8e446b5.png",
     "index.html": "/CounterApp/index.html",
-    "main.425bc8fc.css.map": "/CounterApp/static/css/main.425bc8fc.css.map",
-    "main.f9304931.js.map": "/CounterApp/static/js/main.f9304931.js.map"
+    "main.a3cd89cb.css.map": "/CounterApp/static/css/main.a3cd89cb.css.map",
+    "main.bc47aa16.js.map": "/CounterApp/static/js/main.bc47aa16.js.map"
   },
   "entrypoints": [
-    "static/css/main.425bc8fc.css",
-    "static/js/main.f9304931.js"
+    "static/css/main.a3cd89cb.css",
+    "static/js/main.bc47aa16.js"
   ]
 }
