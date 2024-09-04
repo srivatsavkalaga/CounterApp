@@ -1,6 +1,10 @@
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-import Godess from "./assets/Gayatrimatha.jpg";
+import image1 from "./assets/Gayatrimatha.jpg";
+import image2 from "./assets/shiva.jpg";
+import image3 from "./assets/lakshminarayan.jpg";
+import image4 from "./assets/datatrayea.jpg";
+
 
 import { useEffect,useState } from 'react';
 import './App.css';
@@ -9,11 +13,22 @@ function App() {
   const [count, setCount] = useState(0);
   const [counters, setCounters] = useState(JSON.parse(localStorage.getItem("counters")) || {});
   const [counterName, setCounterName] = useState('');
+  const images=[image1,image2,image3,image4];
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     // Store the counters object in local storage whenever it changes
     localStorage.setItem('counters', JSON.stringify(counters));
   }, [counters]);
+
+
+  
+    
+  const changeImage = () => {
+    console.log('hi');
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
 
   function handleAddition() {
     setCount(count + 1);
@@ -45,9 +60,11 @@ function App() {
   }
 
   function handleEdit(name) {
-    const savedCount = counters[name];
+    let savedCount = counters[name];
+    console.log(count);
     if (savedCount !== undefined) {
       setCounterName(name);
+      savedCount=savedCount+count
       setCount(savedCount);
     } else {
       alert("No counter found with that name.");
@@ -55,20 +72,24 @@ function App() {
   }
 
   function handleDelete(name){
-    const newCounters = { ...counters };
-    console.log(counters.name);
-    Object.keys(counters).forEach(key => {
-      if (key === name) {
-        
-        delete newCounters[name];
-        
-      }
-    setCounters(newCounters);
 
+    const confirmed = window.confirm(`Are you sure you want to delete "${name}" count?`);
+    if(confirmed)
+    {
+      const newCounters = { ...counters };
+      
+      Object.keys(counters).forEach(key => {
+        if (key === name) {
+        
+          delete newCounters[name];
+        
+        }
+      setCounters(newCounters);
+    
 
       
   });
-    
+    } 
   }
   return (
     <>
@@ -76,7 +97,9 @@ function App() {
       <div className='App'>
         
         <div className='box'>
-          <img src={Godess} alt="Second Image" className="center-image" />
+          <img src={images[currentImageIndex]} alt="Current" className="center-image" />
+          <br />
+          <button onClick={changeImage} className="buttonChange">img</button>
 
           <p>{count}</p>
 

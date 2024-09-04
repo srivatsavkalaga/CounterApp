@@ -1,5 +1,5 @@
 import React from 'react'
-import Counterlogo from "../assets/Counterlogo.png";
+import JAPA from "../assets/JAPA.png";
 //import Godess from "../assets/Gayatrimatha.jpg";
 
 
@@ -7,7 +7,7 @@ export const Header = () => {
   return (
   <>
   
-  <img src={Counterlogo} alt="First Image" className="left-image" />
+  <img src={JAPA} alt="First Image" className="left-image" />
   </>  
   
 

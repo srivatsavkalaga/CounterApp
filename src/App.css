@@ -71,15 +71,17 @@ button.Reset{
 
 
 .left-image {
-  width: 100px;                   /* Adjust the width as needed */
-  height: auto;                   /* Maintain aspect ratio */
+  width: 80px; 
+  height:80px;                  /* Adjust the width as needed */
+                   /* Maintain aspect ratio */
 }
 
 .center-image {
   width: 200px;                   /* Adjust the width as needed */
-  height: auto;                   /* Maintain aspect ratio */
+  height: 250px;                   /* Maintain aspect ratio */
   margin-left: 30px;              /* Push the second image to the center */
-  margin-right: 100px;             /* Ensure it's centered within the remaining space */
+  margin-right: 100px;  
+  margin-bottom: 25px;           /* Ensure it's centered within the remaining space */
 }
 
 .save{
@@ -93,7 +95,7 @@ button.Reset{
 }
 
 .textbox{
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 
@@ -133,7 +135,13 @@ li{
   background-color:lightskyblue;
 }
 
-.header{
-   /* Align the text/icon in the center */
-  align-items: center;
+.buttonChange{
+  width: 45px;       /* Adjust the width to control the size of the circle */
+  height: 45px;      /* The height should be the same as the width to make it a perfect circle */
+  border-radius: 50%;
+  margin-left: 230px;
+  background-color:white;
+
 }
+
+
