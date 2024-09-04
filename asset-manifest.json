@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/CounterApp/static/css/main.a3cd89cb.css",
-    "main.js": "/CounterApp/static/js/main.bc47aa16.js",
+    "main.css": "/CounterApp/static/css/main.5cd0154c.css",
+    "main.js": "/CounterApp/static/js/main.2f8e04ab.js",
+    "static/media/JAPA.png": "/CounterApp/static/media/JAPA.b0c06e5a99d95bd51f09.png",
+    "static/media/lakshminarayan.jpg": "/CounterApp/static/media/lakshminarayan.38815ae431b81547ded5.jpg",
+    "static/media/shiva.jpg": "/CounterApp/static/media/shiva.735a5c090ee029a6268a.jpg",
     "static/media/Gayatrimatha.jpg": "/CounterApp/static/media/Gayatrimatha.c1c4d9c5bea5e21639a5.jpg",
-    "static/media/Counterlogo.png": "/CounterApp/static/media/Counterlogo.76ec3e9f5bf9d8e446b5.png",
+    "static/media/datatrayea.jpg": "/CounterApp/static/media/datatrayea.c4ff3dceb84dd7e33189.jpg",
     "index.html": "/CounterApp/index.html",
-    "main.a3cd89cb.css.map": "/CounterApp/static/css/main.a3cd89cb.css.map",
-    "main.bc47aa16.js.map": "/CounterApp/static/js/main.bc47aa16.js.map"
+    "main.5cd0154c.css.map": "/CounterApp/static/css/main.5cd0154c.css.map",
+    "main.2f8e04ab.js.map": "/CounterApp/static/js/main.2f8e04ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3cd89cb.css",
-    "static/js/main.bc47aa16.js"
+    "static/css/main.5cd0154c.css",
+    "static/js/main.2f8e04ab.js"
   ]
 }
