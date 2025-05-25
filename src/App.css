@@ -24,9 +24,8 @@ p{
 button.add{
   
 
-  width: 100px;       /* Adjust the width to control the size of the circle */
+  width: 250px;       /* Adjust the width to control the size of the circle */
   height: 100px;      /* The height should be the same as the width to make it a perfect circle */
-  border-radius: 50%; /* This makes the button circular */
   background-color:red; /* Button color (you can change this) */
   color: white;      /* Text color */
   border: none;      /* No border */
@@ -37,6 +36,7 @@ button.add{
   cursor: pointer;   /* Change cursor to pointer on hover */
   transition: background-color 0.3s ease;
   margin-right: 50px;
+  margin-bottom: 50px;
   
 }
 
@@ -60,7 +60,7 @@ button.Reset{
   font-size: 16px;   /* Font size for text or icon */
   cursor: pointer;   /* Change cursor to pointer on hover */
   transition: background-color 0.3s ease;
-  
+  margin-bottom: 50px;;
   
 }
 
